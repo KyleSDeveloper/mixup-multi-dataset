@@ -1,0 +1,14 @@
+dataset: cifar10
+epochs: 30
+batch_size: 128
+lr: 1e-3
+weight_decay: 0.01
+mixup_alpha: 0.0
+label_smoothing: 0.0
+patience: 5
+image_size: 160
+seeds: [0, 1, 2]
+results_file: results/results.csv
+num_workers: 4
+model_name: resnet18
+pretrained: true

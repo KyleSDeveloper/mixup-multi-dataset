@@ -1,0 +1,16 @@
+name: mixup-bench
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - tqdm
+      - rich
+      - pyyaml
+# Install torch/torchvision per https://pytorch.org/get-started/locally/ (GPU/CPU as needed)

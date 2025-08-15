@@ -1,16 +1,10 @@
 # Mixup Across Multiple Image Datasets — Report
 
 ## Datasets
-- CIFAR-10
-- SVHN
-- Oxford-IIIT Pet
+- CIFAR-10, SVHN, Oxford-IIIT Pet
 
 ## Setup
-- Backbone: ResNet-18 (pretrained=True)
-- Epochs: 30
-- Image size: 160 (224 for Pet)
-- Seeds: 0, 1, 2
-- Mixup alpha: 0.2
+- ResNet-18 (pretrained=True), epochs=30, image_size=160 (224 for Pet), seeds={0,1,2}, mixup α=0.2
 
 ## Results (mean ± std over seeds)
 
